@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header:after {
+    content:"" ;
+    width: 100%;
+    height: 100ph;
+    background: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+
+#bg-video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+}
+
+.video-info {
+    z-index: 99;
+    position: relative;
+    color: cornflowerblue;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+
+
+.video-info h2 {
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s; 
+
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    background: greenyellow;
+    text-decoration: none;
+    color: azure;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: orange;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+}
+
+}
+
+.btn1 {
+    padding: 0.8rem 1.5rem;
+    background: red;
+    text-decoration: none;
+    color: azure; 
+    border-radius: 3px;
+    font-size: 14px;  
+}
+
+.btn1:hover {
+    background: orange;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+}
+
+.btn2 {
+    padding: 0.8rem 1.5rem;
+    background: yellow;
+    text-decoration: none;
+    color: azure; 
+    border-radius: 3px;
+    font-size: 14px;  
+}
+
+.btn2:hover {
+    background: orange;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+}
+
+.btn3 {
+    padding: 0.8rem 1.5rem;
+    background: brown;
+    text-decoration: none;
+    color: azure; 
+    border-radius: 3px;
+    font-size: 14px;  
+}
+
+.btn3:hover {
+    background: orange;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+}
+
+.btn4 {
+    padding: 0.8rem 1.5rem;
+    background: gray;
+    text-decoration: none;
+    color: azure; 
+    border-radius: 3px;
+    font-size: 14px;  
+}
+
+.btn4:hover {
+    background: orange;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: rgb(82, 213, 236);
+}
+
+
+@media screen {max-width::after
+    .video-info {
+        padding: 1.5rem;
+    }
+    .video-info h2 {
+        font-size: 2rem;
+    }
+}
